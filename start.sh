@@ -18,4 +18,4 @@ touch "${target_dir}/crops.txt"
 # git 部分
 git add .
 git commit -m "auto commit"
-git push origin main
+git push origin master
