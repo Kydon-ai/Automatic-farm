@@ -17,10 +17,10 @@ target_dir="./data/${current_year}/${current_month}/${current_day}/${current_tim
 mkdir -p "$target_dir"
 
 # 创建空的crops.txt文件
-touch "${target_dir}/crops.txt"
-
+# touch "${target_dir}/crops.txt"
+echo "Kydon" > "${target_dir}/crops.txt"
 # git 部分 (建议添加错误处理)
 git add .
 git commit -m "auto commit $(date)" # 在提交信息中加入时间戳更好区分
-git push origin master
+# git push origin master
 git push cnb_remote master
