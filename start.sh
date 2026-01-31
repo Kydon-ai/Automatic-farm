@@ -22,5 +22,5 @@ echo "Kydon" > "${target_dir}/crops.txt"
 # git 部分 (建议添加错误处理)
 git add .
 git commit -m "auto commit $(date)" # 在提交信息中加入时间戳更好区分
-# git push origin master
+git push origin master
 git push cnb_remote master
